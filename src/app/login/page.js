@@ -13,15 +13,16 @@ const LoginPage = () => {
     return (
         <Box
             sx={{
-                ml:'20rem',
-                mr:'20rem',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent: 'center',
                 height: '100vh',
                 bgcolor: '#eee',
-                padding: 3,
+                pl: 55,
+                pr: 55, 
+                bgcolor: "#eeeeee",
+                backgroundImage: `url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23abcdef' fill-opacity='0.56' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E")`  
             }}
         >
             <Typography variant="h4" mb={3}>
